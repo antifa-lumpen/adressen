@@ -1,0 +1,2516 @@
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>Google Maps - pygmaps </title>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=visualization&sensor=true_or_false"></script>
+<script type="text/javascript">
+	function initialize() {
+		var centerlatlng = new google.maps.LatLng(52.479000, 13.488000);
+		var myOptions = {
+			zoom: 12,
+			center: centerlatlng,
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+		};
+		var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+
+		var latlng = new google.maps.LatLng(52.532248, 13.395211);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Cornelia,Bartsch,Invalidenstr.151",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.528980, 13.390980);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Mirjam,Bendin,Borsigstr. 5",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.529654, 13.380750);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Markus,Decke,Invalidenstrasse 102",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.531050, 13.394926);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Malou,Jähnel,Bergstraße 19",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.536113, 13.376965);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Laura,Klatt,Wöhlertstraße 1",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.534700, 13.380160);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Cathleen,Koch,Schwartzkopffstraße 5",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.536583, 13.374367);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Robert,Myers,Chausseestr.92",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.523920, 13.392020);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Esther,Rein,Tucholskystr.7",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.535740, 13.406140);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Lara,Altmann,Kastanienallee 37",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.526430, 13.402180);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Anika Lena,Michael,Gipsstr.14",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.534777, 13.402738);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Frank,Schröter,Zionskirchstrasse 22",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.520030, 13.420800);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Michél,Wald,Karl-Marx-Allee 26",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(13.446518, 1737878905.000000);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Stefanie,Burget,Am+Comeniusplatz 6",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.514250, 13.431310);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Martina,Busse,Andreasstrasse 60",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.513624, 13.434289);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Sebastian,Draheim,Koppenstr.80",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.513890, 13.436600);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Chrizy,Gottschalk,Singerstr. 52",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.514861, 13.454172);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Alexander,Isenmann,Warschauer Str. 85",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.509860, 13.448140);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Anita,Jozefowicz,Marchlewskistr.91",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.514990, 13.435690);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Cäcilie,Kalisch,Koppenstrasse 21",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.513920, 13.429370);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Matthias,Krause,Kleine-Andreasstraße-6",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.513890, 13.436600);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Elisa,Langer,Singerstraße 52",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.511368, 13.447207);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Monique,Röder,Torellstraße 2",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.506123, 13.470414);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Steffen,Altmann,Boxhagener Str. 67",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.510577, 13.462712);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Jascha,Beyer Bei Karuna,Seumestraße 15",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.510940, 13.461327);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Katharina,Engel / Trnetworx,Grünberger Str. 84",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.509436, 13.458769);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Julia,Hanack,Wühlischstraße 27",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.508603, 13.456793);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Melanie,Jülich,Dirschauer Straße 4",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.506461, 13.470070);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Sarah,Lentz,Boxhagener Str.68",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.511700, 13.458150);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Torben,Lüth,Grünberger Straße 65",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.506123, 13.470414);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Sven,Manthei,Boxhagener Str. 67",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.506800, 13.464500);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Selina,Niggemann,Holteistr. 29",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.510475, 13.458934);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Natalie,Plisch,Krossener Str 19",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.496343, 13.472634);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Klaas,Rösler,Bootsbauerstr.14",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.508858, 13.463855);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Regina,Scharnagl,Gryphiusstrasse 11",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.512095, 13.462024);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Andreas,Schneid,Boxhagener Str. 98",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.508278, 13.459414);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Vanessa,Schulz,Simplonstraße 23",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.509155, 13.458749);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Conny,Söltl,Wühlischstr. 36",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.499108, 13.462952);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Chantal,Stab,Bödikerstr. 32",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.513695, 13.454771);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Tesmar,Stegmaier,Boxhagener Str. 15",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.507091, 13.464600);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Vanessa,Szelinski,Sonntagstraße 22",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.498040, 13.463280);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Viktoria,Warthe,Stralauer Allee 17D",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.566200, 13.320200);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Izabela,Babut,Scharnweberstr 38",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.516830, 13.467330);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Franziska,Domaschke,Schreinerstr 19",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.520187, 13.458268);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Bianca,Eydner,Liebigstr.23",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.562480, 13.331400);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Sven,Giese,Scharnweber Straße 4",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.507979, 13.472331);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Elena,Grimm,Gürtelstr. 24",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.510200, 13.474180);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Janet,Gudella,Gürtelstraße/34",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.513005, 13.468638);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Carolin,Jütz,Finowstr. 6",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.487400, 13.430470);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Lisa,Kiderlen,Weserstr. 14",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.513842, 13.471179);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Sandro,Kiesow,Frankfurter Allee 90",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.512941, 13.459889);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Yvonne,Kinne,Kreutziger Str. 17",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.518680, 13.461470);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Sabine,Kistmacher,Proskauerstr.21",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.510360, 13.474330);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Johannes,König,Gürtelstr. 35",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.520530, 13.457390);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Andreas,Korzak,Eldenaer Straße 8",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.517650, 13.460780);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Daniela,Littmann,Proskauer Str. 28",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.520585, 13.457522);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Ronny,Lohse,Eldenaer Str. 9",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.509060, 13.473190);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Andreas,Lüth,Gürtelstr. 27",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.513765, 13.459453);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Katharina,Matzkeit,Niederbarnimstr.19",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.510930, 13.466570);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Volker,Milde,Finowstr. 16",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.518000, 13.458360);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Anne,Paschen,Rigaer Straße 93",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.512800, 13.472020);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Thoralf,Philipp,Müggelstr. 28",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.516561, 13.464906);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Coraline,Pilz,Samariterstr 33",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.516380, 13.467780);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Diana,Ringelsiep,Voigtstraße 36",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.515472, 13.473849);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Lena,Rößing,Pettenkoferstraße 2B",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.513170, 13.459677);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Frank,Ruschitschka,Kreutziger Str. 13",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.518210, 13.467930);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Michaela,Schimmel,Bänschstr. 67",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.512420, 13.466530);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Madlen,Seidl,Jungstr. 10",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.519960, 13.469020);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Paul,Steinbrück,Voigtstraße 22",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.516180, 13.459790);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Claudia,Taudte,Proskauer Str. 36",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.508890, 13.469400);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Cassandra,Voigt,Jessnerstr. 68",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.517140, 13.464740);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Sebastian Valentin,Weber,Schreinerstr.11",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.513170, 13.459677);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Ralf,Weigelt,Kreutzigerstr.13",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.515810, 13.471590);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Steffi,Witt,Waldeyerstr.6",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.515040, 13.474184);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Silja,Woelk,Rigaer Str. 56",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.517330, 13.467430);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Melanie,Ziehe,Schreinerstraße 47",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.487400, 13.431700);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Thilo,Zimmermann,Weserstrasse 18",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.523310, 13.451130);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Heigle,Benedikt,Ebelingstr 3",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.522460, 13.455230);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Anne,Dornbusch,Hausburgstr. 30",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.523040, 13.451740);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Sarah,Euba,Straßmannstr. /31",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.455742, 13.444557);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Oliver,Gäbe,Pintschstr. 14",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.522250, 13.451050);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Stefanie,Gebert,Petersburger Str. 45",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.524170, 13.450940);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Nicole,Gottke,Weisbachstrasse 7",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.526280, 13.421920);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Sina,Karabas,Otto Braun Straße 84",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.524407, 13.447689);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Ute,Komarek,Kochhannstraße 38",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.523161, 13.435717);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Freyja,Lieke,Landsberger Allee 10",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.522990, 13.445750);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Eileen,Neumann,Richard-Sorge Str. 39",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.525350, 13.450120);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Cindy,Noack,Heidenfeldstr.5",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.522830, 13.454430);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Franka,Ölze,Ebertystraße / 33",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.520790, 13.453860);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Franziska,Reß,Mühsamstr. 70",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.522040, 13.455290);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Dirk,Röseler,Thaerstraße 34",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.522900, 13.454190);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Anja,Rudolph,Ebertystrasse 34",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.522690, 13.453110);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Katja,Stanschus,Strassmannstraße 40",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.523189, 13.436213);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Saskia,Steffen,Landsberger Allee 16",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.525600, 13.451440);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Sophie,Thurow,Ebertystraße 8",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.520950, 13.454130);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Uwe,Trenner,Mühsamstrasse 72",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.510610, 13.521400);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Anja,Kammer,Marzahner Chaussee 5",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.509113, 13.520190);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Sabine,Schernig,Alt-Friedrichsfelde 42",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.502450, 13.497970);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Sarah Rosa,Werner,Marie-Curie-Allee 101",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.502450, 13.497970);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Jennifer,Adler,Irenenstraße",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.509000, 13.501150);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "David,Baier,Irenenstr.10",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.501290, 13.493330);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Jessica,Bali,Weitlingstr 119",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.503320, 13.492270);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Doreen,Benkowsky,Rupprechtstr.04",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.501530, 13.493930);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Moritz,Born,Weitlingstraße 115A",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.502670, 13.482300);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Reinke,Brauner,Archibaldweg 8",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.507870, 13.495930);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Manuela,Giersch,Eitelstr. 79",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.504900, 13.477550);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Susi,Haude,Kaskelstraße 15",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.496880, 13.480590);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Marcel,Jagnow,Lina-Morgenstern-Str.34",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.504840, 13.498360);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Luisa,Klewer,Heinrichstr.11A",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.505120, 13.494170);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Bianca,Koch,Eitelstasse 64",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.502121, 13.480740);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Lea,Koch,Nöldnerstraße 22",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.508789, 13.497335);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Anika,Meier,Weitlingstraße 26",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.505530, 13.490310);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Justin,Quentel,Giselastraße 25",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.501530, 13.493930);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Paul,Rauner,Weitlingstraße 115A",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.501530, 13.493930);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Carolin,Raygrotzki,Weitlingstraße 115A",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.501530, 13.493930);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Mike,Reglin,Egmontstr",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.508380, 13.502200);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Nicole,Rossow,Metastraße 22",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.494450, 13.484460);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Jana,Seidel,Erich-Müller-Str 3",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.507410, 13.500860);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Nina-Christin,Steinberg,Metastr. 1",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.508789, 13.497335);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Stefan,Weiher,Weitlingstraße 26",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.502630, 13.510050);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Thilo,Barz,Volkradstraße 1E",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.496470, 13.519667);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Anja,Griese,Erieseering 26",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.501494, 13.520702);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Jana,Heilig,Am Tierpark 62",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.496450, 13.511020);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Anne,Kuhl,Sewanstrasse 171",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.495561, 13.520427);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Tobias,Münkwitz,Erieseering 38",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.495590, 13.502990);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Katja,Rhode,Dolgenseestraße 34",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.494555, 13.522867);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Laura,Schreiber,Ontarioseestraße 22",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.510390, 13.482980);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Cornelia,Bethke,Schulze-Boysenstrasse 43",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.511818, 13.488680);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Sebastian,Hampf,Frankfurter Allee 190",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.516870, 13.497990);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Maria,Kittner,Freiastr.2",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.513980, 13.499950);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Danny,Langkabel,Fanningerstr.55",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.508510, 13.481530);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Romy,Rückert,Schulze-Boysen-Str. 67",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.515622, 13.489194);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Iris,Walter,Glaschkestr.2",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.509270, 13.482920);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Heiko,Wichmann,Coppistrasse10",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.527023, 13.484213);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Eric,Berghof,Herzbergstraße 149",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.525100, 13.482260);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Melanie,Granzow,Paul-Zobel Straße 6",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.522680, 13.485110);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "S.,Kretschmer,Ruschestr. 52",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.519920, 13.479160);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Sarah,Linke,Möllendorffstr.91",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.523320, 13.480580);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Marcus,Niemoth,Josef-Orlopp-Str. 5",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.520019, 13.485677);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Jan,Prachtel,Ruschestrasse 36",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.524490, 13.478370);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Sarah,Zepernick,Möllendorffstr. 71",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.532190, 13.475180);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Raika,Döring,Landsberger Allee 186",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.535078, 13.471678);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Nicole,Pittroff,Hohenschönhauserstraße 24",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.525608, 13.467843);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Stephan,Rautenberg,Rudolf-Seiffert-Str. 8",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.525395, 13.467743);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "John,Schraps,Rudolf-Seiffert-Straße 6",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.527725, 13.422372);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Nancy,Buhr,Otto-Braun-Straße 87",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.531552, 13.421108);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Ildiko,Goercsoes,Heinrich-Roller-Straße 26",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.544500, 13.427770);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Michael,Otto,Prenzlauer Allee 86A",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.535435, 13.431060);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Stefan,Ramm,Jablonskistraße 1",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.533580, 13.422580);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Rina,Rudolph,Immanuelkirchstr.35",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.531552, 13.421108);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Philipp,Seliger,Heinrich-Roller Str.26",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.534298, 13.431379);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Uwe,Siegel,Greifswalder Str. 41",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.535720, 13.423360);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Linus,Weichsel,Marienburgerstr. 48",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.533770, 13.439765);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Caroline,Daun,Hans-Otto Straße 52",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.532880, 13.440950);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Manja,Heller,Danziger Str.173",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.529311, 13.447464);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Anja,Herfort,Rudi-Arndt-Str. 8",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.529311, 13.447464);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Rene,Hubert,Kniprodestr.",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.536050, 13.441160);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Jeannine,Jetzschmann,Rudolf-Schwarz-Straße 1",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.536005, 13.436290);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Monique,Myxa-Storch,Bernhard-Lichtenberg-Str 19",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.530576, 13.437133);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Martin,Pingel,Liselotte-Herrmann-Straße 17",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.539110, 13.456720);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Marlene,Thomas,Altenescher Weg 20A",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.545740, 13.443069);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Kevin,Bieske,Ostseestr.120",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.544150, 13.430811);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "S.,Elsner,Grellstr. 11",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.549076, 13.431665);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Fabio,Gerardi,Prenzlauer Allee 120",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.544243, 13.431743);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Simone,Hauenstein,Grellstr.63",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.544110, 13.436650);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Mark-André,Hopf,Hosemannstraße 8",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.546410, 13.445850);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Coko,Koch,Greifswalder Str. 135",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.546410, 13.445850);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Cornelia,Koch,Greifswalder Str. 135",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.544920, 13.439410);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Charlotte,Mayer,Erich - Weinert - Str. 135A",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.543250, 13.436820);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Antje,Meier,Rietzestr. 11",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.543275, 13.440742);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Theresa,Morgenstern,Greifswalder Straße 158",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.540770, 13.447110);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Francine Monique,Noack,Pieskower Weg 52",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.547660, 13.433590);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Melanie,Seidel,Lindenhoekweg 12",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.539420, 13.405140);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Ulrike,Zirnstein,Schwedter Str. 48",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.545480, 13.423040);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Petra,Apitius,Dunckerstr. 67",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.542421, 13.410599);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Anja,Kohtz,Topsstraße 13",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.543110, 13.425140);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Tino,Murawa,Stargarder Strasse 38",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.547370, 13.402830);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Anke,Pausch,Korsörer Str. 18",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.544924, 13.416752);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Fabian,Plapst,Pappelallee 26",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.540790, 13.420340);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Daniela,Valentin,Göhrener Str.10",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.540790, 13.420340);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Sevgi,Block,Erich-Weinert-Straße",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.550946, 13.423339);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Knut,Gebhardt,Kuglerstraße 60",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.551160, 13.428340);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Eileen,Heising,Dunckerstraße 48",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.550578, 13.419554);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Alexander,Herfort,Scherenbergstr.23",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.555378, 13.405442);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Jenny,Krause,Bergener Straße 10",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.547997, 13.427739);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Christoph,Kroel,Erich-Weinert Str. 86",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.553492, 13.401056);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Christian,Lelek,Finnländische Str 13",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.551760, 13.401410);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Maria,Mallqui Chacón,Isländische Straße 13",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.385280, 13.393070);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Andreas,Saul,Krügerstr.6",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.554870, 13.405590);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Conny,Schüler,Bergener Str. 2",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.549995, 13.425831);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Manuela,Schüler,Krügerstraße 9",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.550219, 13.421095);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Manuela,Schwabe,Erich-Weinert-Str.46",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.552890, 13.415290);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Roland,Stragies,Kuglerstraße 3",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.553612, 13.405666);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Christiane,Walter,Czarnikauer Straße 5",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.552400, 13.400310);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Nick,Weschkalnies,Ueckermünder Str. 10",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.530260, 13.332420);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Kristin,Büchner,Wiclefstraße 45",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.528380, 13.332940);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Marcel,Holz,Emdenerstr 53",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.530060, 13.337530);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "M.,Kirsche,Wiclefstr. 61",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.533195, 13.327053);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Jannik,Haefke,Sickingenstraße 4",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.527955, 13.328500);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Ruben,Nöhre,Beusselstraße 75",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.522760, 13.331060);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Henriette,Geber,Levetzowstraße 25",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.522703, 13.334591);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Constanze,Janiszewski,Jagowstr. 15",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.525480, 13.331110);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Patryk,Makowski,Zwinglistraße 30",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.517490, 13.617410);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Anja,Hartge,Melanchthonstr. 19",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.521980, 13.359480);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Viola,Stendahl-Nicoleit,Werftstrasse 15",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.534880, 13.349450);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Susanna,Boxberger,Quitzowstraße 127",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.531010, 13.349740);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Cecilia,Deveci,Wilsnackerstraße 42",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.532580, 13.348980);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Anna,Fredrich,Stendaler Str. 20",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.533940, 13.350630);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Daria,Gomelskaia,Stephanstraße 56",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.527240, 13.350850);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Marsha,Jamrath,Wilsnackerstr.62",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.531250, 13.349660);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Joy,Monse,Wilsnacker Strasse 40",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.535275, 13.355615);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Sarah,Riedel,Perlebergerstraße 5",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.530155, 13.352142);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Toni,Woschinski,Rathenowerstr. 61",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.512040, 13.301880);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Nina,Dell,Kaiser-Friedrich-Str. 78",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.519330, 13.303480);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Marc,Eberlein,Brauhofstraße 7",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.514736, 13.330895);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Maike,Mutschler,Salzufer 1",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.519204, 13.322573);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Sandra,Witzger / Tp Marketing,Salzufer 15/16",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.528110, 13.304340);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Christian,Noack,Keplerstr. 11",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.507083, 13.324222);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Nils,Brusten,Carmerstr. 12",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.508990, 13.329940);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Bernd,Luchs,Fasanenstraße 86",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.507320, 13.313300);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Thomas,Bode,Leibnizstraße 74",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.509582, 13.314845);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Dirk,Dymarski,Leibnizstrasse 23",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.506240, 13.310480);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Marc,Salgado Navarrete,Kantstrasse 122",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.506330, 13.297850);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Lena,Suppan,Kantstr. 90",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.503640, 13.311700);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Burkhard,Hickisch,Mommsenstraße 19",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.502690, 13.306030);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Daniel,Lauterbach,Waitzstr.24",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.502690, 13.306030);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Regina,Wagner,Mommsenstrasse",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.483050, 13.313240);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Kerstin,Cobre,Barstraße 23",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.482372, 13.318661);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Kerstin,Keller,Aachener Str. 44",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.479059, 13.334146);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Yvonne,Herrle,Wexstr. 19",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.553250, 13.466820);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Katja,Kaczmarek,Berlinerstr. 165",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.485700, 13.325021);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Eva,Meiserhahn,Wilhelmsaue 16",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.482760, 13.321885);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Andrea,Reeck,Am Volkspark 79",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.491320, 13.334790);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Ingo,Feuerherdt,Helmstedter Str. 29",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.490270, 13.324950);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Christiane,Wöllner,Holsteinische Straße 14/15",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.500079, 13.320896);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Nha-Vy,Trinh Quang,Lietzenburger Str. 92",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.498840, 13.333190);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Andreas,Von Seidlein,Schaperstraße 35",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.495200, 13.344370);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Ivetta,Bielawska,Luitpoldstraße 20",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.497580, 13.341550);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Jacqueline,Eckert,Welserstraße 11",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.497330, 13.338050);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Francoise,Eichler,Bamberger Str. 60",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.492930, 13.338080);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Thomas,Lutz,Landshuter Straße 6A",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.489990, 13.341640);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Marko,Meyer,Westarpstr. 2",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.497310, 13.353190);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Tobias,Hattig,Winterfeldtstr. 46",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.538970, 13.587711);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Kathleen,Klein,Eisenacher Str.23",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.497252, 13.351972);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Annette,Scharnberg,Winterfeldtstraße 56",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.492320, 13.362540);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Pauline,Grodzki,Steinmetzstr.43",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.492320, 13.362540);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Thomas,Markert,Brucknerstraße",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.494970, 13.366970);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "David,Neuhaus,Bülowstraße 55",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.498600, 13.361950);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Marius,Rieck,Potsdamer Str. 136",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.494970, 13.366970);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Francis,Zeischegg,Bülowstraße 55",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.499620, 13.336650);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Sven,Berdermann,Nürnberger Str. 42",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.487130, 13.351460);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Tamas,Hernádi,Wartburgstraße 52",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.481803, 13.345387);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Silke,Hammon,Martin-Luther-Str. 111",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.487520, 13.337720);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Tena,Karg,Bozenerstr. 4",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.479860, 13.352190);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Sara,Gröll,Ebersstraße 74",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.487440, 13.361290);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Andrea,Guse,Crellestr. 19",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.488530, 13.360690);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Claudia,Schönsee,Helmstr. 8",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.490110, 13.370440);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Yve,Ehler,Bautzener Str 11",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.486021, 13.366261);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Christoph,Stolp,Geßlerstraße 4",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.485695, 13.361802);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Christian,Ttolla,Kolonnen 10",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.487240, 13.363010);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Justine,Wolff,Czeminskistraße 3",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.494260, 13.393780);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Sandra,Braschoss,Baruther Str. 18",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.494800, 13.398060);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Maximilian,Eickwinkel,Blücherstraße 18",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.491840, 13.397220);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Anne,Fischer C.O.Dobler,Mittenwalder Straße 44",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.493920, 13.401270);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Martin,Szymanski,Urbanstraße 5",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.433969, 13.378149);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Casandra,Pilgram,Großbeerenstr. 65",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.437000, 13.380410);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Lukasz,Polakowski,Grossbeerenstrasse 23",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.497700, 13.380990);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Oliver,Zogbaum,Obentrautstraße 70",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.436773, 13.551816);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Cesar,Campe,Arndtstr.23",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.436280, 13.379630);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Drenka,Eick Gluvic,Großbeerenstraße 31",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.491303, 13.383885);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Andi,Ortenburger,Hagelberger Str. 46",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.490515, 13.376778);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Siegfried,Rückel,Katzbachstraße 35",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.492340, 13.380490);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Tetsuro,Taranczewski,Yorckstraße 69",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.494823, 13.419448);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Markus,Brunner,Graefestr. 89",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.489640, 13.410960);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Benjamin,Buhler,Hasenheide 50",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.494569, 13.411739);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Christopher,Exner,Planufer 78",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.488560, 13.421630);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Borjana,Gakovic,Urbanstraße 67",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.490680, 13.414820);
+		var img = new google.maps.MarkerImage('/usr/local/lib/python2.7/dist-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "Aljoscha,Rosowski,Graefestr. 32",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+	}
+</script>
+</head>
+<body style="margin:0px; padding:0px;" onload="initialize()">
+	<div id="map_canvas" style="width: 100%; height: 100%;"></div>
+</body>
+</html>
